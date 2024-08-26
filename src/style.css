@@ -1,0 +1,161 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Dark text color for readability */
+    margin: 0;
+    padding: 0;
+}
+
+#main-Heading {
+    margin-top: 1%;
+    color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    margin-top: 1.5%;
+}
+
+.nav-item {
+    margin-left: 7%;
+}
+
+
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Headings */
+h2 {
+    color: #0056b3; /* Dark blue color for headings */
+    font-size: 2em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #0056b3; /* Blue underline for headings */
+    padding-bottom: 5px;
+}
+
+.about-heading {
+    color: #0056b3; /* Dark blue color for headings */
+    font-size: 2em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #0056b3; /* Blue underline for headings */
+    padding-bottom: 5px;
+}
+
+.objective h2, .hardware h2, .archietecture-heading, .diagram-heading, .code-heading{
+    margin-top: 5%;
+    color: #0056b3; /* Dark blue color for headings */
+    font-size: 2em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #0056b3; /* Blue underline for headings */
+    padding-bottom: 5px;
+}
+
+/* Paragraphs */
+.about-definition {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Lists */
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Specific Section Styling */
+.about-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.objective ul, .features ul {
+    list-style-type: disc; /* Disc bullets for unordered lists */
+    padding-left: 40px;
+}
+
+.hardware ol {
+    list-style-type: decimal; /* Numbered list for ordered lists */
+    padding-left: 40px;
+}
+
+.architecture, .diagram {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.architecture img, .diagram img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #0056b3; /* Blue border around images */
+    border-radius: 5px; /* Slightly rounded corners */
+    margin-top: 10px;
+}
+
+/* Feature Section */
+.features-list li {
+    margin-bottom: 10px;
+}
+
+.features-heading {
+    font-size: 1.8em;
+    color: #0056b3;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #0056b3;
+}
+
+/* Code Section */
+.code {
+    background-color: #e7f3ff; /* Light blue background for the code section */
+    border-left: 4px solid #0056b3; /* Blue left border for the code section */
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for code */
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 2%;
+    padding-top: 5%;
+    font-size: large;
+    color: aliceblue;
+    background-color: #747272;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2.5%;
+}
+
+#codeSection {
+    display: none; /* Default to visible */
+}
+
+button:hover {
+    font-weight: bold;
+}
+
+section {
+    padding: 100px;
+    margin: 50px 0;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+}
+
+section:hover {
+    background-color: #e0f7fa;
+}
